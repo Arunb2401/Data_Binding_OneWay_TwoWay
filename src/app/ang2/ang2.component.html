@@ -1,0 +1,12 @@
+<div style="text-align:center">
+    <p>--------------------------------------------------------------------------------------------------</p>
+    <h1>Two Way Data Binding Method</h1>
+
+
+    <h2>Hello {{this.userName}}, welcome to ANGULAR learning.... </h2>
+    <img src="assets\AngularJS.png" alt="Image" (click)="onClick($event)" alt=" image_Url ">
+    <div style="text-align:center"></div>
+    <input (input)="onInput($event)" [(ngModel)]="userName " />
+    <span>{{this.nameError}}</span>
+</div>
+<router-outlet></router-outlet>

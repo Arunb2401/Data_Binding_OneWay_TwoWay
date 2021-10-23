@@ -1,12 +1,15 @@
-<h1>One way Data Binding Methods</h1>
-<h3>---------------------------------------------------------------------</h3>
-<h2>1. String Interpolation</h2>
-<div>Hello From:- {{name}}</div>
-<div>{{"Welcome from:- " + name}}</div>
-<h3>{{"This is to display in uppercase via method:- " + name.toUpperCase()}}</h3>
-<h2>2. Property Binding</h2>
-<input [id]="myId" type="text" value="Arun">
-<input placeholder="Disabled via Property binding" [disabled]="isDisabled" type="text">
-<div>
+<div style="text-align: center">
+    <h1>One Way Data Binding Method</h1>
+</div>
+<div style="text-align:center">
+    <h3>----------------------------------------------------------------------------------------------------------------------------------------------</h3>
+    <h2>1. String Interpolation</h2>
+    <div>Hello From:- {{name}}</div>
+    <div>{{"Welcome from:- " + name}}</div>
+    <h3>{{"This is to display in uppercase via method:- " + name.toUpperCase()}}</h3>
+    <h2>2. Property Binding</h2>
+    <input [id]="myId" type="text" value="Arun">
+    <input placeholder="Disabled via Property binding" [disabled]="isDisabled" type="text">
+
     <input placeholder="Disabled by diff Syntax" bind-disabled="isDisabled" type="text">
 </div>
